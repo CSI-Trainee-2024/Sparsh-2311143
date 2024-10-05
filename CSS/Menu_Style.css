@@ -1,0 +1,42 @@
+.menu_image {
+    background-size: contain;
+    margin-left: 20px;
+}
+
+.menu_group {
+    margin: 100px 0;
+    display: flex;
+    
+}
+
+.menu_name {
+    padding: 10px 0 0 20px;
+    width: 20%;
+    background-size: cover;
+    background-color: red;
+}
+
+.menu_price {
+    padding: 10px 0 0 20px;
+    width: 5%;
+    background-size: cover;
+    background-color: blue;
+}
+
+.about_text_p {
+    white-space: pre;
+}
+
+.menu_table {
+    position: relative;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    padding: 10px;
+}

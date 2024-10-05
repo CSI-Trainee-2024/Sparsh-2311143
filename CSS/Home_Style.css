@@ -58,81 +58,83 @@
     margin: 25px 0;
 }
 
-.review_card_elements{
+.review_card{
     margin: 0 1rem;
     padding: 2rem 1rem;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     text-align: center;
     transition: 0.3s;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1); 
   }
-  .review_card_elements:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  .review_card:hover {
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   .checked {
     color: orange;
   }
+
+  .unchecked {
+      color: grey;
+  }
   
 
   .footer {
-    background-color: rgba(128, 128, 128, 0.73);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  .footer__logo img {
-    max-width: 250px;
-  }
-  
-  .footer__content {
+    background-color: black;
+    opacity: 0.75;
+    padding: 20px;
     margin-top: 2rem;
-    display: grid;
-    gap: 2rem;
+    /*background-position: center center;*/
+    /*background-size: contain;*/
+    /*background-repeat: no-repeat;*/
   }
   
-  .footer__content p {
-    font-weight: 5500;
+  .footer_content {
+    /* margin: 5rem; */
+    /* gap: 2rem; */
+  }
+  
+  .footer_content p {
     color: white;
     line-height: 1.75rem;
   }
   
-  .footer__links {
+  .footer_links {
     list-style: none;
     display: grid;
     gap: 1rem;
-  }
-  
-  .footer__links li {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    font-weight: 500;
     color: white;
   }
   
-  .footer__links li span {
-    font-size: 1.25rem;
+  .footer_links li {
+    /* display: flex; */
+    /* align-items: center; */
+    /* gap: 3rem; */
+    /* font-weight: 500; */
+    /* color: white; */
   }
   
-  .footer__socials {
+  .footer_links li span {
+    font-size: 1rem;
+  }
+  
+  .footer_socials {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
     gap: 1rem;
   }
   
-  .footer__socials a {
-    font-size: 1.5rem;
+  .footer_socials a {
+    font-size: 1rem;
     color: white;
   }
   
-  .footer__socials a:hover {
+  .footer_socials a:hover {
     color: blueviolet;
   }
   
-  .footer__bar {
+  .footer_bar {
     padding: 1rem;
     font-size: 0.9rem;
     color: white;
