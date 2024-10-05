@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+	background-color: yellow;
+    color: white;
+    padding: 10px;
+    position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+    height: 8vh;
+    
+}
+
+.logo{
+    height: 2em;
+    float: left;
+}
+
+.text-block {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    float: right;
+
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  li a:hover {
+    background-color:white;
+  }
