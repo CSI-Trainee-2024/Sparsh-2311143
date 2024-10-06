@@ -87,7 +87,7 @@
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
-.review_card p{
+.review_card p {
   text-align: justify;
 }
 
@@ -96,13 +96,13 @@
 }
 
 
-@media (max-width: 500px){
+@media (max-width: 500px) {
   .review_group {
     display: grid;
     grid-template-columns: auto;
   }
 
-  .review_card{
+  .review_card {
     margin: 10px 1.2vw;
   }
 
@@ -130,13 +130,14 @@
 
 }
 
-@media (max-width: 760px) and (min-width: 501px){
+@media (max-width: 760px) and (min-width: 501px) {
 
   .review_group {
     display: grid;
     grid-template-columns: auto auto;
   }
-  .review_card{
+
+  .review_card {
     margin: 10px 1.2vw;
   }
 

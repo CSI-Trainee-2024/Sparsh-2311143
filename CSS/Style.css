@@ -8,23 +8,23 @@ body {
   padding: 0;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
   font-size: 15px;
-  
+
 }
 
-li a{
+li a {
   padding: 8px;
 }
 
-li a:hover{
+li a:hover {
   background-color: white;
   padding: 8px;
 }
 
-.container{
+.container {
   background-color: yellow;
   padding: 10px;
   display: flex;
@@ -36,16 +36,16 @@ li a:hover{
   height: 2em;
 }
 
-.nav_items ul{
-   display: flex;
-   list-style-type: none;
+.nav_items ul {
+  display: flex;
+  list-style-type: none;
 }
 
-.nav_items ul li{
+.nav_items ul li {
   margin: 0 10px;
 }
 
-.menu_icon{
+.menu_icon {
   display: none;
 }
 
@@ -100,16 +100,16 @@ li a:hover{
   text-align: center;
 }
 
-@media (max-width:760px){
-  .menu_icon{
-      display: block;
-      color: black;
+@media (max-width:760px) {
+  .menu_icon {
+    display: block;
+    color: black;
   }
 
-  .nav_items ul{
-      display: none;
+  .nav_items ul {
+    display: none;
   }
-  
+
   .footer_content {
     display: flex;
     flex-direction: column;

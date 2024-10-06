@@ -1,43 +1,41 @@
-.event_group{
+.event_group {
     margin-bottom: 20 px;
     display: flex;
     align-items: center;
 }
 
-.event_group_reverse{
+.event_group_reverse {
     margin-bottom: 20 px;
     display: flex;
     align-items: center;
 }
 
 
-.event_img{
-    /* background-image: url("/Images/Event_Image_1.jpg");
-    background-size: cover; */
-    width:40%;
+.event_img {
+    width: 40%;
 }
 
-.event_text{
+.event_text {
     padding: 30px 0 0 20px;
     width: 60%;
 }
 
 @media (max-width:760px) {
-    .event_group{
+    .event_group {
         flex-direction: column-reverse;
         margin-bottom: 30px;
     }
 
-    .event_group_reverse{
+    .event_group_reverse {
         flex-direction: column;
     }
 
-    .event_text{
+    .event_text {
         padding: 10px;
         width: 90%;
     }
 
-    .event_img{
+    .event_img {
         width: 100%;
     }
 
