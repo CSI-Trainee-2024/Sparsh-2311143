@@ -22,6 +22,7 @@ body{
 
 .text-block {
     position: relative;
+    display: block;
 }
 
 a {
@@ -54,3 +55,58 @@ ul {
   li a:hover {
     background-color:white;
   }
+
+
+  .footer {
+    background-color: black;
+    opacity: 0.75;
+    padding: 20px;
+    margin-top: 2rem;
+    
+  }  
+  
+  
+  .footer_content p {
+    color: white;
+    line-height: 1.75rem;
+  }
+  
+  .footer_links {
+    list-style: none;
+    display: grid;
+    gap: 1rem;
+    color: white;
+  }  
+  
+  .footer_links li span {
+    font-size: 1rem;
+  }
+  
+  .footer_socials {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .footer_socials a {
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .footer_socials a:hover {
+    color: blueviolet;
+  }
+  
+  .footer_bar {
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: white;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 992px) {
+    .text_block{
+      display: none;
+    }
+}
