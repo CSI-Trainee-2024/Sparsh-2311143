@@ -96,7 +96,7 @@
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 760px) {
   .review_group {
     display: grid;
     grid-template-columns: auto;
@@ -130,7 +130,7 @@
 
 }
 
-@media (max-width: 760px) and (min-width: 501px) {
+@media (max-width: 1024px) and (min-width: 760px) {
 
   .review_group {
     display: grid;

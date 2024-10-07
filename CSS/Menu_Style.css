@@ -52,7 +52,7 @@
     line-height: 1.6;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1024px) {
 
     .menu_group {
         grid-template-columns: auto;
@@ -65,7 +65,7 @@
 }
 
 
-@media (max-width: 1000px) and (min-width: 760px) {
+@media (max-width: 1250px) and (min-width: 1024px) {
     .menu_group {
         grid-template-columns: auto auto;
     }

@@ -100,7 +100,7 @@ li a:hover {
   text-align: center;
 }
 
-@media (max-width:760px) {
+@media (max-width: 1024px) {
   .menu_icon {
     display: block;
     color: black;

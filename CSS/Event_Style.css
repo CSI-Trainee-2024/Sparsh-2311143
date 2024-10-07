@@ -20,7 +20,7 @@
     width: 60%;
 }
 
-@media (max-width:760px) {
+@media (max-width:1024px) {
     .event_group {
         flex-direction: column-reverse;
         margin-bottom: 30px;
