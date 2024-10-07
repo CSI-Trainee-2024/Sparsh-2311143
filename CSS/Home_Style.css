@@ -100,10 +100,11 @@
   .review_group {
     display: grid;
     grid-template-columns: auto;
+    margin: 10px 2.5vw;
   }
 
   .review_card {
-    margin: 10px 1.5vw;
+    margin: 10px 0.5vw;
   }
 
   .about_text {
