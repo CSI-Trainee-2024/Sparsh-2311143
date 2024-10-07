@@ -175,4 +175,14 @@ display: none;
     padding-right: 20px;
     color: black;
   }
+
+  .footer_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer_content p {
+    text-align: center;
+  }
 }  
