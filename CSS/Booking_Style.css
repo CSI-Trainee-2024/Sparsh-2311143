@@ -63,7 +63,7 @@
   border-radius: 10px;
 }
 
-@media (max-width: 759px) {
+@media (max-width: 760px) {
   .reservation_container form {
     display: grid;
     grid-template-columns: auto;
@@ -73,7 +73,7 @@
 
 }
 
-@media (max-width: 1024px) and (min-width: 760px) {
+@media (max-width: 1080px) and (min-width: 760px) {
 
   .reservation_container form {
     display: grid;
