@@ -7,6 +7,14 @@
   display: flex;
 }
 
+.reservation_header {
+  max-width: 400px;
+  font-size: 1.5em;
+  border: solid red;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+
 .reservation_container form {
   max-width: 800px;
   display: grid;
@@ -31,19 +39,11 @@
   color: black;
 }
 
-.reservation_header {
-  max-width: 400px;
-  font-size: 1.5em;
-  justify-content: center;
-  border: solid red;
-  border-radius: 10px;
-  padding: 10px 30px;
-  text-align: center;
-}
+
 
 .btn {
   padding: 1rem 1.5rem;
-  outline: none;
+  /* outline: none; */
   border: 2px solid red;
   border-color: red;
   font-size: 1rem;
@@ -55,7 +55,6 @@
 
 .btn:hover {
   padding: 1rem 1.5rem;
-  outline: none;
   border: 2px solid red;
   font-size: 1rem;
   color: red;
