@@ -114,7 +114,7 @@ display: none;
   text-align: center;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1080px) {
   .menu_icon {
     display: block;
     color: black;
@@ -132,7 +132,7 @@ display: none;
     justify-content: flex-end;
     align-items: flex-end;
   }
-  
+
   .nav_items ul {
     display: none;
   }
