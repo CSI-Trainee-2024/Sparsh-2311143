@@ -1,7 +1,3 @@
-.home{
-  max-width: 100%;
-}
-
 .home_background {
   height: 70vh;
   margin: 0;
@@ -102,8 +98,14 @@
 
 
 @media (max-width: 759px) {
+
+  .home{
+    max-width: 100%;
+  }
+
   .review_group {
     display: grid;
+    max-width: 100%;
     grid-template-columns: auto;
     margin: 10px 2.5vw;
   }
@@ -115,7 +117,7 @@
   .about_text {
     padding: 0;
     justify-content: center;
-    width: 95%;
+    width: 90%;
   }
 
   .about_group {
@@ -124,11 +126,7 @@
     margin-bottom: 20px;
     justify-content: center;
     align-items: center;
-  }
-
-  .about_text {
-    padding: 10px 30px;
-    width: 95%;
+    max-width: 100%;
   }
 
   .about_img {
