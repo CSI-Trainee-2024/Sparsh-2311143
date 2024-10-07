@@ -96,19 +96,20 @@
 }
 
 
-@media (max-width: 760px) {
+@media (max-width: 759px) {
   .review_group {
     display: grid;
     grid-template-columns: auto;
   }
 
   .review_card {
-    margin: 10px 1.2vw;
+    margin: 10px 1.5vw;
   }
 
   .about_text {
     padding: 0;
     justify-content: center;
+    width: 95%;
   }
 
   .about_group {
