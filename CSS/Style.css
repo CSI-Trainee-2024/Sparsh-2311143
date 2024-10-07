@@ -158,8 +158,8 @@ display: none;
     background-color: yellow;
     padding: 0px;
     display: flex;
-    /* justify-content: flex-end;
-    align-items: flex-end; */
+    justify-content: flex-end;
+    align-items: flex-end;
   }
 
   .nav_items ul {
