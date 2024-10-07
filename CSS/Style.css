@@ -32,6 +32,20 @@ li a:hover {
   align-items: center;
 }
 
+.expanded_menu_container{
+display: none;
+}
+
+.expanded_menu_container ul{
+  list-style-type: none;
+  padding-right: 10px;
+}
+
+.expanded_menu_container ul li{
+  margin-bottom: 10px;
+  text-align: end;
+}
+
 .logo {
   height: 2em;
 }
@@ -105,6 +119,21 @@ li a:hover {
     display: block;
     color: black;
   }
+
+  .menu_icon{
+    display: block;
+    color: black;
+  }
+
+  .expanded_menu_container{
+    background-color: yellow;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+
 
   .nav_items ul {
     display: none;

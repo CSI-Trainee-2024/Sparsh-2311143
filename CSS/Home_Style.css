@@ -44,7 +44,7 @@
 }
 
 .about_text {
-  padding: 10px 30px;
+  padding: 10px 15px;
   width: 60%;
 }
 
@@ -108,6 +108,7 @@
 
   .about_text {
     padding: 0;
+    justify-content: center;
   }
 
   .about_group {
@@ -138,11 +139,24 @@
   }
 
   .review_card {
-    margin: 10px 1.2vw;
+    margin: 10px 1.5vw;
+
+  }
+
+  .checked {
+    color: orange;
+    padding: 5px;
+  }
+  
+  .unchecked {
+    color: grey;
+    padding: 5px;
   }
 
   .about_text {
     padding: 0;
+    text-align: justify;
+    width: 95%;
   }
 
   .about_group {
