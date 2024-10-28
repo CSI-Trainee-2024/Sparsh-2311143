@@ -12,6 +12,7 @@
     padding-bottom: 8px;
     color: black;
     border-bottom: 2px solid rgba(128, 128, 128, 0.41);
+    animation: right_to_left 5s infinite;
 }
 
 .menu_group {
@@ -46,11 +47,28 @@
     display: flex;
     justify-content: space-between;
     margin: 0;
+    animation: blink 5s infinite;
+
 }
 
 .menu_item_desc {
     line-height: 1.6;
 }
+
+@keyframes blink {
+    75% {
+      opacity: 0;
+    }
+  }
+
+@keyframes right_to_left {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0;
+    }
+  } 
 
 @media (max-width: 1080px) {
 

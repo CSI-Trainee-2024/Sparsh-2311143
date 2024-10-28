@@ -12,7 +12,7 @@
 
 <body>
 
-  
+
   <!-- navbar -->
   <div class="container">
 
@@ -53,7 +53,7 @@
 
   <!-- about -->
   <div class="about_group">
-    <div class="about_text">
+    <div class="about_text slideanim">
       <p>At <b>The Table</b>, we believe that every meal is a celebration. Nestled in the heart of AKGEC, our restaurant
         offers a unique blend of indian and chinese that pays homage to traditional flavors while embracing modern
         techniques.</p>
@@ -64,13 +64,13 @@
       <p>Whether it’s a casual dinner, a family gathering, or a special celebration, we have something for everyone.
         Check out our events calendar for live music nights, themed dinners, and special promotions.</p>
     </div>
-    <img src="Images/About_image.jpg" class="about_img" alt="About Image">
+    <img src="Images/About_image.jpg" class="about_img slideanim" alt="About Image">
   </div>
 
 
   <!-- review -->
   <div class="review_group">
-    <div class="review_card">
+    <div class="review_card slideanim">
       <span class="fa fa-star checked "></span>
       <span class="fa fa-star checked "></span>
       <span class="fa fa-star checked "></span>
@@ -84,7 +84,7 @@
     </div>
 
 
-    <div class="review_card">
+    <div class="review_card slideanim">
       <span class="fa fa-star checked"></span>
       <span class="fa fa-star checked"></span>
       <span class="fa fa-star checked"></span>
@@ -98,7 +98,7 @@
     </div>
 
 
-    <div class="review_card">
+    <div class="review_card slideanim" >
       <span class="fa fa-star checked"></span>
       <span class="fa fa-star checked"></span>
       <span class="fa fa-star checked"></span>
@@ -143,6 +143,24 @@
       Thanks for visiting !!
     </div>
   </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const textDivs = document.querySelectorAll('.slideanim');
+      textDivs.forEach(textDiv => {
+        window.addEventListener('scroll', function () {
+          const rect = textDiv.getBoundingClientRect();
+          console.log(rect, "rect")
+          const windowHeight = window.innerHeight;
+
+          // Check if the text div is in view
+          if (rect.top < windowHeight && rect.bottom > 0) {
+            textDiv.classList.remove("slideanim")
+            textDiv.classList.add("slide")
+          }
+        });
+      })
+    });
+  </script>
 
 
 </body>

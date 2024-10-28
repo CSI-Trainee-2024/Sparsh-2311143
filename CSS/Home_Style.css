@@ -8,6 +8,7 @@
 
 .home_text {
   color: white;
+  animation: blink 3s infinite;
 }
 
 .button {
@@ -35,6 +36,7 @@
   width: fit-content;
   background-color: rgba(128, 128, 128, 0.396);
   padding: 20px;
+  
 }
 
 .about_group {
@@ -42,15 +44,19 @@
   margin-bottom: 20px;
   align-items: center;
   max-width: 100%;
+  
 }
 
 .about_text {
   padding: 10px 15px;
   width: 60%;
+  
 }
 
 .about_img {
   width: 40%;
+  
+  
 }
 
 .review_group {
@@ -96,6 +102,16 @@
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+@keyframes blink {
+  75% {
+    opacity: 0;
+  }
+}
+
+
+
+
+
 @media screen and (max-width: 1080px) and (min-width: 760px) {
 
   .review_group {
@@ -112,7 +128,7 @@
     color: orange;
     padding: 5px;
   }
-  
+
   .unchecked {
     color: grey;
     padding: 5px;
@@ -140,13 +156,13 @@
 }
 
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 760px) {
 
 
   .review_group {
     display: grid;
     max-width: 100%;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     margin: 10px 2.5vw;
   }
 
@@ -169,7 +185,7 @@
     max-width: 100%;
   }
 
-  .home_background{
+  .home_background {
     height: 50vh;
   }
 

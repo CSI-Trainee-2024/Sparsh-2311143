@@ -32,10 +32,10 @@
             <li><a href="Menu.html" target="_blank">Menu</a></li>
             <li><a href="Booking.html" target="_blank">Booking</a></li>
         </ul>
-      </div>
+    </div>
 
     <!-- event -->
-    <div class="event_group">
+    <div class="event_group slide">
         <div class="event_text">
             <h3>Elegant Wedding Celebration at The Table</h3>
             <p>Celebrate your love in the heart of <b>Ghaziabad</b> at <b>The Table</b>, where romance meets exquisite
@@ -51,7 +51,7 @@
         <img src="../Images/Event_Image_1.jpg" alt="Wedding" class="event_img">
     </div>
 
-    <div class="event_group_reverse">
+    <div class="event_group_reverse slideanim">
         <img src="../Images/Event_Image_2.webp" alt="Birthday Party" class="event_img">
         <div class="event_text">
             <h3>Joyful Birthday Celebration at The Table</h3>
@@ -67,7 +67,7 @@
 
     </div>
 
-    <div class="event_group">
+    <div class="event_group slideanim">
         <div class="event_text">
             <h3>Vibrant Office Party at The Table</h3>
             <p>Transform your office party into an unforgettable experience at <b>The Table</b>, where a lively
@@ -116,6 +116,24 @@
             Thanks for visiting !!
         </div>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const textDivs = document.querySelectorAll('.slideanim');
+          textDivs.forEach(textDiv => {
+            window.addEventListener('scroll', function () {
+              const rect = textDiv.getBoundingClientRect();
+              console.log(rect, "rect")
+              const windowHeight = window.innerHeight;
+    
+              // Check if the text div is in view
+              if (rect.top < windowHeight && rect.bottom > 0) {
+                textDiv.classList.remove("slideanim")
+                textDiv.classList.add("slide")
+              }
+            });
+          })
+        });
+      </script>
 </body>
 
 </html>
